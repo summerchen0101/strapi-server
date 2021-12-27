@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basic_level_awards",
+  "info": {
+    "displayName": "AmountContent",
+    "icon": "gift",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

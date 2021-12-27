@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_basic_award_players",
+  "info": {
+    "displayName": "awardPlayers",
+    "icon": "grin-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "currentAmount": {
+      "type": "integer"
+    },
+    "maxAmount": {
+      "type": "integer"
+    },
+    "players": {
+      "type": "json"
+    }
+  }
+}

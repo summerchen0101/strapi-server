@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_6s",
+  "info": {
+    "singularName": "event-6",
+    "pluralName": "event-6s",
+    "displayName": "event-6",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "content_intro": {
+      "type": "richtext"
+    },
+    "content_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.prize-group"
+    }
+  }
+}

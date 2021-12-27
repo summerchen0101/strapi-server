@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_basic_prize_groups",
+  "info": {
+    "displayName": "contentGroup",
+    "icon": "gifts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "prizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.prize-info"
+    }
+  }
+}

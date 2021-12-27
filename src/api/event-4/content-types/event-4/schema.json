@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_4s",
+  "info": {
+    "singularName": "event-4",
+    "pluralName": "event-4s",
+    "displayName": "event-4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

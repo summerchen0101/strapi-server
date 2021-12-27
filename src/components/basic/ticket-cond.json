@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_basic_ticket_conds",
+  "info": {
+    "displayName": "ticketCond",
+    "icon": "flag-checkered"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

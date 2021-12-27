@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_5s",
+  "info": {
+    "singularName": "event-5",
+    "pluralName": "event-5s",
+    "displayName": "event-5",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "content_intro": {
+      "type": "richtext"
+    },
+    "content_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.level-award"
+    },
+    "period": {
+      "type": "string"
+    }
+  }
+}

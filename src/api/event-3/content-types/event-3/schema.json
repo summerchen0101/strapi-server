@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_3s",
+  "info": {
+    "singularName": "event-3",
+    "pluralName": "event-3s",
+    "displayName": "event-3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "content_1_intro": {
+      "type": "richtext"
+    },
+    "content_1_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content_2_intro": {
+      "type": "richtext"
+    },
+    "content_2_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.ticket-cond"
+    }
+  }
+}

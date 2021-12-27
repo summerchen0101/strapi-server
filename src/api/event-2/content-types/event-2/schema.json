@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_2s",
+  "info": {
+    "singularName": "event-2",
+    "pluralName": "event-2s",
+    "displayName": "event-2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "releaseAt": {
+      "type": "datetime"
+    },
+    "prize_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.prize-group"
+    }
+  }
+}

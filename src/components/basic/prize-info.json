@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basic_prize_infos",
+  "info": {
+    "displayName": "prizeInfo",
+    "icon": "money-bill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "condition": {
+      "type": "string"
+    }
+  }
+}
